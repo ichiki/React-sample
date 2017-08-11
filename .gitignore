@@ -1,6 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
+/form/form_sample/node_modules
+/form/thumbtack_form/node_modules
 /my-app/node_modules
 /test/node_modules
 
