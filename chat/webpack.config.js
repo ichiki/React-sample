@@ -5,6 +5,7 @@ module.exports = {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  devtool: 'inline-source',
   module : {
     rules : [
       {
@@ -18,7 +19,7 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: [
-                ['env', {'modules': false}],
+                //['env', {'modules': false}],
                 'react'
               ]
             }
@@ -28,5 +29,4 @@ module.exports = {
       }
     ]
   },
-  devtool: 'inline-source-map'
 };

@@ -6,7 +6,7 @@ server.listen(portNo, ()=>{
   console.log('start server', 'http://localhost:' + portNo)
 })
 
-app.user('/public', express.static('./public'))
+app.use('/public', express.static('./public'))
 app.get('/', (req, res) => {
   res.redirect(302, '/public')
 })
