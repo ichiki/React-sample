@@ -5,6 +5,7 @@
 /form/thumbtack_form/node_modules
 /my-app/node_modules
 /test/node_modules
+/chat/node_modules
 
 # testing
 /coverage
